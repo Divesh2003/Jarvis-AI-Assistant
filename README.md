@@ -1,17 +1,14 @@
-[![CodeFactor](https://www.codefactor.io/repository/github/ggeop/python-ai-assistant/badge)](https://www.codefactor.io/repository/github/ggeop/Python-ai-assistant)
-[![Maintainability](https://api.codeclimate.com/v1/badges/8c90305e22186cc2c9d5/maintainability)](https://codeclimate.com/github/ggeop/Python-ai-assistant/maintainability)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://app.travis-ci.com/ggeop/Python-ai-assistant.svg?branch=master)](https://app.travis-ci.com/ggeop/Python-ai-assistant)
 
-![alt text](https://github.com/ggeop/Python-ai-assistant/blob/master/imgs/jarvis_logo.png)
 
+![alt text](https://github.com/Divesh2003/Jarvis-AI-Assistant/blob/main/imgs/jarvis_logo.png)
 # About Jarvis - An Intelligent AI Consciousness 🧠
 Jarvis is a voice commanding assistant service in [Python 3.8](https://www.python.org/downloads/release/python-360/)
 It can recognize human speech, talk to user and execute basic commands.
 
 #### Requirements
 
-* Operation system: **Ubuntu 20.04 (Focal Fossa)**
+* Operation system: **Windows 10 or Ubuntu**
 * Python Version: **3.8.x**
 
 
@@ -87,7 +84,7 @@ nano Jarvis/src/jarvis/jarvis/setting.py
 ```
 
 ### Start voice commanding assistant
-![alt text](https://github.com/ggeop/Jarvis/blob/master/imgs/Jarvis_printscreen.PNG)
+![alt text](https://github.com/Divesh2003/Jarvis-AI-Assistant/blob/main/imgs/Jarvis_printscreen.PNG)
 
 *   Start the assistant service:
 ```bash
@@ -108,13 +105,13 @@ You can easily add a new skill in two steps.
 *   Create a new skill module in **skills/collection**
 
 ### Desicion Model
-![alt text](https://github.com/ggeop/Jarvis/blob/master/imgs/desicion_model.png)
+![alt text](https://github.com/Divesh2003/Jarvis-AI-Assistant/blob/main/imgs/desicion_model.png)
 
 ### Extract skill
 The skill extraction implement in a matrix of [TF-IDF features](https://scikit-learn.org/stable/modules/generated/sklearn.feature_extraction.text.TfidfVectorizer.html) for each skill.
 In the following example he have a dimensional space with three skills.
 The user input analyzed in this space and by using a similarity metric (e.g cosine) we find the most similar skill.
-![alt text](https://github.com/ggeop/Jarvis/blob/master/imgs/skill_space_desicion.png)
+![alt text](https://github.com/Divesh2003/Jarvis-AI-Assistant/blob/main/imgs/skill_space_desicion.png)
 
 ---
 
@@ -125,8 +122,7 @@ The user input analyzed in this space and by using a similarity metric (e.g cosi
     * Checkout `develop` branch and create a feature branch e.g `feature_branch`
     * Open a PR to `develop`
     * Wait for review and approval !!
-    * `master` branch update and release is automated via [Travis CI/CD](https://app.travis-ci.com/github/ggeop/Python-ai-assistant)
 * Try to follow PEP-8 guidelines and add useful comments!
 
 ## CI/CD Flow
-![alt text](https://github.com/ggeop/Python-ai-assistant/blob/master/imgs/TravisFlow.png)
+![alt text](https://github.com/Divesh2003/Jarvis-AI-Assistant/blob/main/imgs/TravisFlow.png)
